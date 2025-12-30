@@ -1,0 +1,1314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/qan3.png" alt="Itqan Azis" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Itqan Azis">Itqan Azis</h1>
+
+          <p class="title">Final Year Student</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:md.itqanazis@gmail.com" class="contact-link" style="display: block; white-space: normal; word-break: break-all;">
+                md.itqanazis@gmail.com
+              </a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">LinkedIn</p>
+
+              <a href="https://www.linkedin.com/in/itqanazis" class="contact-link" target="_blank" style="display: block; white-space: normal; word-break: break-all;">
+                www.linkedin.com/in/itqanazis
+              </a>
+            </div>
+
+          </li>
+
+          <!-- <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+60169132750" class="contact-link">+60 169132750</a>
+            </div>
+
+          </li> -->
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">24 August, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Terengganu, Malaysia</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li> -->
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p style="text-align: justify;">
+            A detail-oriented individual with an interest in big data analytics related industries. Currently an undergraduate at UiTM Kuala 
+Terengganu, majoring in Computer Science (Big Data Analytics) with a current CGPA of 3.56. Having served as a group leader in 
+numerous group assignments and projects, equipped with strong leadership, communication skills, and the ability to collaborate 
+effectively with team members from diverse backgrounds. Seeking an internship placement to gain valuable exposure and experience 
+in the industry. Available from 30 March 2026 until 3 July 2026.
+          </p>
+
+          <!-- <p>
+            My job is to build your website so that it is functional and user-friendly but at the same time attractive.
+            Moreover, I
+            add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
+            across your
+            message and identity in the most creative way. I created web design for many famous brand companies.
+          </p> -->
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I Learned</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="Data Analytics icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Analytics</h4>
+
+                <p class="service-item-text">
+                  Transforming raw data into interactive dashboards and actionable insights using Power BI and Python.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="AI icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning</h4>
+                <p class="service-item-text">
+                  Developing predictive models and algorithms to classify data and forecast trends using Python.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="Web design icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Design & Development</h4>
+                <p class="service-item-text">
+                  Building responsive websites with modern UI/UX using HTML, CSS, JavaScript, and PHP.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Database icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Database Management</h4>
+
+                <p class="service-item-text">
+                   Designing, managing, and optimizing database structures using SQL for efficient data storage.
+                </p>
+              </div>
+
+            </li>
+
+
+
+          </ul>
+
+        </section>
+
+        
+          <!-- - testimonials -->
+        
+
+         <!-- <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section> -->
+
+
+        <!--
+          - testimonials modal (kalau buang part ni, takleh guna navigation button)
+        -->
+
+         <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div> 
+
+
+        <!--
+          - clients
+        -->
+
+         <!-- <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>  -->
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bachelor of Computer Science (Hons.)</h4>
+
+              <span>March 2024 — Present</span>
+
+              <p class="timeline-text">
+                <strong>Universiti Teknologi MARA (UiTM) Kuala Terengganu</strong><br>
+                CGPA: 3.56 | Dean's List for 2 Semesters<br>
+                Major: Big Data Analytics
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Diploma in Computer Science</h4>
+
+              <span>Oct 2021 — Feb 2024</span>
+
+              <p class="timeline-text">
+                <strong>Universiti Teknologi MARA (UiTM) Kuala Terengganu</strong><br>
+                CGPA: 3.51 | Dean's List for 2 Semesters<br>
+                Focus: Web & Mobile Application, Algorithms.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Tools Maintenance Internship Trainee</h4>
+
+              <span>Sept 2023 — Feb 2024</span>
+
+              <p class="timeline-text">
+                <strong>Mesiniaga Berhad</strong><br>
+                Assisted in preventive maintenance on IT systems to ensure smooth operation. Interacted with clients to address technical concerns and explain issues professionally.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Technical Skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data Analytics (Power BI, Weka, RapidMiner)</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web Dev (HTML, CSS, JS, PHP)</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Database (MySQL, MongoDB)</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Programming (Python, Java, C++)</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Data Analytics</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web Development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Data Analytics</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web Development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="data analytics">
+              <a href="https://app.powerbi.com/view?r=eyJrIjoiOThlZmNlOTAtNDU2OS00MmJmLWI1MDMtOGJmYWJlZGIxZGRiIiwidCI6ImNkY2JiMGUyLTlmZWEtNGY1NC04NjcwLTY3MjcwNzc5N2FkYSIsImMiOjEwfQ%3D%3D" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/dashboard-school.png" alt="School Resource Analysis" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Resource Distribution in Schools</h3>
+
+                <p class="project-category">Power BI Analysis <br> (Click for details)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="data analytics">
+              <a href="https://app.powerbi.com/view?r=eyJrIjoiMzE3MTQyNjQtYWE1YS00ZjQ3LWE1YjItOGZjMWQzMjZmYjVmIiwidCI6ImNkY2JiMGUyLTlmZWEtNGY1NC04NjcwLTY3MjcwNzc5N2FkYSIsImMiOjEwfQ%3D%3D" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/dashboard-hr.png" alt="HR Dashboard" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">HR Workforce Dashboard</h3>
+
+                <p class="project-category">Power BI Analysis <br> (Click for details)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="data analytics">
+              <a href="https://app.powerbi.com/view?r=eyJrIjoiZDNhNmNlMzYtZThhMy00YzA2LWIwMzktZTE1Zjc1NTQwOTRhIiwidCI6ImNkY2JiMGUyLTlmZWEtNGY1NC04NjcwLTY3MjcwNzc5N2FkYSIsImMiOjEwfQ%3D%3D" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/dashboard-road.png" alt="Road Safety Analysis" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Malaysia Road Safety Analysis</h3>
+
+                <p class="project-category">Power BI Analysis <br> (Click for details)</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#" onclick="openProjectModal('internsync'); return false;">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="images-outline"></ion-icon>
+                  </div>
+                  
+                  <img src="./assets/images/internsync-thumb.png" alt="InternSync" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">InternSync: Internship Management System</h3>
+                <p class="project-category">Web Development <br> (Click for details)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#" onclick="openProjectModal('eperibahasa'); return false;">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="images-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/peri1.png" alt="ePeribahasa" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">ePeribahasa Online Library</h3>
+                <p class="project-category">Web Development <br> (Click for details)</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <!-- <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article> -->
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <!-- <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section> -->
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="https://formspree.io/f/mnjqwpkr" method="POST" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Your Name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Your Email Address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <input type="hidden" name="_subject" value="New Portfolio Contact!">
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+      <!--
+        - popup window for preview project
+      -->
+
+    <div class="modal-container" id="project-modal" style="display: none;">
+        <div class="overlay" onclick="closeProjectModal()"></div>
+
+        <section class="testimonials-modal" style="max-width: 800px; width: 90%; text-align: center;">
+
+          <button class="modal-close-btn" onclick="closeProjectModal()">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+          <div class="modal-content" style="padding: 20px;">
+            
+            <h3 class="h3 modal-title" id="modal-title" style="margin-bottom: 20px;">Project Title</h3>
+
+            <div style="position: relative; display: flex; align-items: center; justify-content: center; background: #222; border-radius: 10px; overflow: hidden; min-height: 300px;">
+              
+              <button onclick="changeSlide(-1)" style="position: absolute; left: 10px; background: rgba(0,0,0,0.5); color: white; border: none; padding: 10px; cursor: pointer; border-radius: 50%; z-index: 10;">
+                <ion-icon name="chevron-back-outline" size="large"></ion-icon>
+              </button>
+
+              <img id="modal-img" src="" alt="Project Screenshot" style="max-width: 100%; max-height: 400px; object-fit: contain;">
+
+              <button onclick="changeSlide(1)" style="position: absolute; right: 10px; background: rgba(0,0,0,0.5); color: white; border: none; padding: 10px; cursor: pointer; border-radius: 50%; z-index: 10;">
+                <ion-icon name="chevron-forward-outline" size="large"></ion-icon>
+              </button>
+            </div>
+
+            <div style="margin-top: 20px; text-align: left; background: #333; padding: 15px; border-radius: 8px; color: #ddd;">
+              <p id="modal-desc">Description goes here...</p>
+            </div>
+
+          </div>
+
+        </section>
+      </div>
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+  <!--
+    - popup window js
+  -->
+
+  <script>
+    // --- PROJECT DATA CONFIGURATION ---
+    // You can add more screenshots here!
+    const projectData = {
+      internsync: {
+        title: "InternSync: Internship Management System",
+        slides: [
+          { 
+            /* Slide 1: Login */
+            src: "./assets/images/internsync-1.png", 
+            desc: "<strong>Secure Role-Based Login:</strong> A unified entry point developed using the <b>Java MVC Framework</b>. This module securely authenticates three distinct user roles—Students, Lecturers, and Industrial Supervisors—and routes them to their specific dashboards." 
+          },
+          { 
+            /* Slide 2: Dashboard */
+            src: "./assets/images/internsync-2.png", 
+            desc: "<strong>Student Centralized Dashboard:</strong> A comprehensive command center for students to track their internship progress. It features real-time status updates for mandatory <b>BLI Forms</b> (e.g., BLI 01, BLI 04), deadline alerts, and a weekly schedule view to ensure timely submissions." 
+          },
+          { 
+            /* Slide 3: BLI 01 Form */
+            src: "./assets/images/internsync-3.png", 
+            desc: "<strong>Digital BLI Submission Module:</strong> Converts traditional paper-based internship forms (like BLI 01) into dynamic digital forms. This module uses <b>SQL Database Integration</b> to auto-populate student data and ensures all required fields are validated before submission." 
+          },
+          { 
+            /* Slide 4: BLI 03 Form */
+            src: "./assets/images/internsync-4.png", 
+            desc: "<strong>Automated Placement Verification (BLI 03):</strong> Streamlines the internship acceptance process. This feature pulls confirmed company data from the database and allows students to <b>automatically generate</b> the official BLI 03 placement letter with a single click." 
+          },
+          { 
+            /* Slide 5: BLI 04 Form */
+            src: "./assets/images/internsync-5.png", 
+            desc: "<strong>Self-Report & Verification (BLI 04):</strong> A dedicated interface for students to confirm their reporting status. It features dual functionality: users can <b>Generate PDF</b> versions of their forms for physical records or submit digital verification directly to the system for supervisor approval." 
+          },
+          { 
+            /* Slide 6: BLI 07 Form */
+            src: "./assets/images/internsync-6.png", 
+            desc: "<strong>End-of-Training Evaluation (BLI 07):</strong> A multi-step feedback module designed for student self-assessment and organization review. It utilizes <b>Likert Scale inputs</b> to capture quantitative data on the internship experience, which is stored for university quality assurance analysis." 
+          },
+          { 
+            /* Slide 7: Attendance */
+            src: "./assets/images/internsync-7.png", 
+            desc: "<strong>Daily Attendance & Digital Logbook:</strong> Integrated system for tracking daily presence and work activities. Students can log their daily tasks and upload <b>supporting evidence</b> (images/PDFs), eliminating the need for physical logbooks and allowing supervisors to monitor progress remotely." 
+          },
+          { 
+            /* Slide 8: Submit Report */
+            src: "./assets/images/internsync-8.png", 
+            desc: "<strong>Final Report Submission:</strong> The final milestone of the system. This module handles large <b>File Uploads</b> securely, allowing students to submit their comprehensive internship report for grading. It updates the student's status to 'Completed' upon successful transmission." 
+          },
+          { 
+            /* Slide 9: Settings  */
+            src: "./assets/images/internsync-9.png", 
+            desc: "<strong>Profile & Account Management:</strong> A secure settings interface where students can manage their personal, academic, and guardian information. It allows for real-time updates to contact details and provides secure account controls, including password management and system logout." 
+          },
+          { 
+            /* Slide 9: Settings */
+            src: "./assets/images/admin1.png", 
+            desc: "<strong>Admin Dashboard</strong>" 
+          },
+          { 
+            /* Slide 9: Settings */
+            src: "./assets/images/admin2.png", 
+            desc: "<strong>Admin Dasboard</strong>" 
+          },
+          { 
+            /* Slide 9: Settings */
+            src: "./assets/images/admin3.png", 
+            desc: "<strong>Admin Dasboard</strong>" 
+          },   
+          { 
+            /* Slide 9: Settings */
+            src: "./assets/images/svcom1.png", 
+            desc: "<strong>Company Supervisor Dasboard</strong>" 
+          },
+          { 
+            /* Slide 9: Settings */
+            src: "./assets/images/svcom2.png", 
+            desc: "<strong>Company Supervisor Dasboard</strong>" 
+          },
+          { 
+            /* Slide 9: Settings */
+            src: "./assets/images/svcom3.png", 
+            desc: "<strong>Company Supervisor Dasboard</strong>" 
+          },         
+          { 
+            /* Slide 9: Settings */
+            src: "./assets/images/lect1.png", 
+            desc: "<strong>Lecturer Dasboard</strong>" 
+          },
+          { 
+            /* Slide 9: Settings */
+            src: "./assets/images/lect2.png", 
+            desc: "<strong>Lecturer Dasboard</strong>" 
+          }            
+        ]
+      },
+      eperibahasa: {
+        title: "ePeribahasa Online Library",
+        slides: [
+          { 
+            src: "./assets/images/peri1.png", 
+            desc: "<strong>Homepage:</strong> A clean, responsive search interface built with Bootstrap." 
+          },
+          { 
+            src: "./assets/images/peri2.png", 
+            desc: "<strong>Detail view for each peribahasa</strong>" 
+          },
+          { 
+            src: "./assets/images/peri3.png", 
+            desc: "<strong>Admin Dashboard</strong>" 
+          },
+          { 
+            src: "./assets/images/peri4.png", 
+            desc: "<strong>Moderator Dashboard</strong>" 
+          },
+          { 
+            src: "./assets/images/peri5.png", 
+            desc: "<strong>Detail view for contributor user</strong>" 
+          },
+          { 
+            src: "./assets/images/peri6.png", 
+            desc: "<strong>Add Peribahasa</strong>" 
+          }                                        
+        ]
+      }
+    };
+
+    // --- MODAL LOGIC (DO NOT TOUCH BELOW UNLESS YOU KNOW JS) ---
+    let currentProject = null;
+    let currentIndex = 0;
+
+    function openProjectModal(projectId) {
+      const modal = document.getElementById('project-modal');
+      const data = projectData[projectId];
+      
+      if (!data) return; // Project not found
+
+      currentProject = data;
+      currentIndex = 0; // Start at first image
+
+      // Set Title
+      document.getElementById('modal-title').innerText = data.title;
+      
+      // Load First Slide
+      updateSlide();
+
+      // Show Modal
+      modal.style.display = 'flex';
+      modal.classList.add('active');
+    }
+
+    function closeProjectModal() {
+      const modal = document.getElementById('project-modal');
+      modal.style.display = 'none';
+      modal.classList.remove('active');
+    }
+
+    function changeSlide(direction) {
+      if (!currentProject) return;
+
+      // Update Index
+      currentIndex += direction;
+
+      // Loop logic (if at end, go to start, etc.)
+      if (currentIndex >= currentProject.slides.length) {
+        currentIndex = 0;
+      } else if (currentIndex < 0) {
+        currentIndex = currentProject.slides.length - 1;
+      }
+
+      updateSlide();
+    }
+
+    function updateSlide() {
+      const slide = currentProject.slides[currentIndex];
+      document.getElementById('modal-img').src = slide.src;
+      document.getElementById('modal-desc').innerHTML = slide.desc; // Use innerHTML to allow bold text
+    }
+  </script>
+
+</body>
+
+</html>
